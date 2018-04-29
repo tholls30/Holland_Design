@@ -43,8 +43,8 @@ ul li{
 /* ==== General ==== */
 
 body{
-	background:#ffffff;
-	color:#ffffff;
+	background:#fafafa;
+	color:#fafafa;
 	font-size:14px;
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Droid Sans', sans-serif;
 }
 a{
-	color:#ffffff;
+	color:#fafafa;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
@@ -204,7 +204,7 @@ p:last-child{
 	left:0;
 	width:100%;
 	z-index:100;
-	padding:32px 0 32px 0;
+	padding:16px 0 16px 0;
   -webkit-transition: ease-in 0.3s;
   -moz-transition: ease-in 0.3s;
   -ms-transition: ease-in 0.3s;
@@ -212,15 +212,16 @@ p:last-child{
   transition: ease-in 0.3s;
 }
 .navigation-scrolled{
-  background-color: #212121;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+  background-color: rgba(33, 33, 33, .92);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 .menu{
-	padding-top:5px;
+	padding-top:12px;
 }
 .menu ul li{
 	float:left;
-	margin-right:25px;
+	margin-right:24px;
 }
 .menu ul li:last-child{
 	margin-right:0;
