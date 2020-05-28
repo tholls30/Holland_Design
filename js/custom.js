@@ -1,11 +1,11 @@
 $(document).ready(function() {
-	
+
 	'use strict';
-	
+
 	/* ==== Preloader ==== */
 	$('.spinner').fadeOut('slow');
 	$('.preloader').delay(350).fadeOut();
-	
+
 	/* ==== Full Height ==== */
 	$(function(){
 		$('.full-height').css({'height':($(window).height())+'px'});
@@ -20,9 +20,9 @@ $(document).ready(function() {
     	transitionStyle : 'goDown',
     	mouseDrag:false,
     	touchDrag:false,
-    	autoPlay : 4000
+    	autoPlay : 6000
 	});
-	
+
 	/* ==== Team Carousel ==== */
 	$('#carousel-team').owlCarousel({
     	singleItem : true,
@@ -32,10 +32,10 @@ $(document).ready(function() {
     	autoPlay : 4000,
 		pagination:true
 	});
-	
+
 	/* ==== Boxer ==== */
 	$('.boxer').boxer();
-	
+
 	/* ==== Contact Form ==== */
 	var options = {
 		target: '.message .alert',
