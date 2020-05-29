@@ -17,7 +17,7 @@ $(document).ready(function() {
 	/* ==== Home Slider ==== */
 	$('#home-slider').owlCarousel({
     	singleItem : true,
-    	transitionStyle : 'goDown',
+    	transitionStyle : 'fade',
     	mouseDrag:false,
     	touchDrag:false,
     	autoPlay : 6000
