@@ -20,7 +20,7 @@ $(document).ready(function() {
     	transitionStyle : 'fade',
     	mouseDrag:false,
     	touchDrag:false,
-    	autoPlay : 6000
+    	autoPlay : 4000
 	});
 
 	/* ==== Team Carousel ==== */
