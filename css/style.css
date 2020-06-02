@@ -593,6 +593,11 @@ p:last-child{
 	padding:100px 0;
 	background:url(../images/geometry.png) repeat scroll;
 }
+
+.work-process-nobg{
+  background: none;
+  background-color: #eee;
+}
 .project-text{
 	margin-bottom:30px;
 }
@@ -964,4 +969,9 @@ p:last-child{
 	.info-row.mb{
 		text-align:center;
 	}
+}
+
+.th-about-photo img{
+  height: 100%;
+  width: 100%;
 }
