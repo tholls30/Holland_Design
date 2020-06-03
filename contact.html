@@ -17,7 +17,7 @@
 		<link href="css/style-theme.css" rel="stylesheet">
 	</head>
 	<body>
-	
+
 		<!-- BEGIN Preloader -->
 		<div class="preloader">
 			<div class="spinner">
@@ -27,7 +27,7 @@
 			</div>
 		</div>
 		<!-- END Preloader -->
-		
+
 		<!-- BEGIN Navigation -->
 		<div class="navigation default">
 			<div class="container">
@@ -35,7 +35,7 @@
 					<div class="col-md-12 clearfix">
 						<div class="logo-site fleft">
 							<a href="index.html">
-								<img src="images/logo.png" alt="" title="" />
+								<img src="images/Logo_White_64.png" alt="" title="" />
 							</a>
 						</div>
 						<div class="menu fright">
@@ -59,14 +59,14 @@
 			</div>
 		</div>
 		<!-- END Navigation -->
-		
+
 		<!-- BEGIN Inner Content -->
 		<div class="page-title">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="inner-title">Contact us</h2>
-						<div class="inner-sub-title">We will be happy to drink a cup of coffee with you</div>
+						<h2 class="inner-title">Contact Me</h2>
+						<div class="inner-sub-title">I would be happy to have a beer or a cup of coffee with you</div>
 					</div>
 				</div>
 			</div>
@@ -75,7 +75,7 @@
 			<div class="container">
 				<div class="row divider70">
 					<div class="col-md-12">
-						<h2 class="inner-content-title fcenter">How to find us<span class="color-red">.</span></h2>
+						<h2 class="inner-content-title fcenter">How to find me<span class="color-red">.</span></h2>
 					</div>
 				</div>
 				<div class="row divider70">
@@ -83,45 +83,38 @@
 						<div class="col-md-3 col-sm-6 divider-sm50">
 							<div class="add-row location">
 								<div class="add-title">Address</div>
-								<p>40 West 45th Street <br>New York, NY 10036</p>
+								<p>59 Timber Road <br>Black Hawk, CO 80422</p>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 divider-sm50">
 							<div class="add-row location">
-								<div class="add-title">Call us</div>
-								<p>+12123546400<br>+12123544502</p>
+								<div class="add-title">Call me</div>
+								<p>+1 (845) 392-5523</p>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 divider-xs50">
 							<div class="add-row location">
 								<div class="add-title">Email</div>
-								<p>support@vardodesign.com</p>
+								<a href="mailto:tom@tomhollanddesign.nyc">
+									<p>tom@hollanddesign.nyc</p>
+								</a>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
 							<div class="add-row social">
 								<div class="add-title">Social Network</div>
 								<p>
-									<a href="#0">
-										<i class="fa fa-facebook"></i>
+									<a href="https://www.linkedin.com/in/thomas-holland-a45a4811/">
+										<i class="fa fa-linkedin"></i>
 									</a>
-									<a href="#0">
+									<a href="https://dribbble.com/THolls30">
 										<i class="fa fa-dribbble"></i>
 									</a>
-									<a href="#0">
-										<i class="fa fa-pinterest"></i>
+									<a href="https://www.instagram.com/tholls30/">
+										<i class="fa fa-instagram"></i>
 									</a>
 								</p>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container-fluid">
-				<div class="row divider70">
-					<div class="col-md-12">
-						<div class="row">
-							<div class="for-map" id="gmap"></div>
 						</div>
 					</div>
 				</div>
@@ -143,7 +136,7 @@
 			</div>
 		</div>
 		<!-- END Inner Content -->
-		
+
 		<!-- BEGIN Footer -->
 		<div class="footer">
 			<div class="container">
@@ -177,20 +170,20 @@
 						<div class="finfo-wrapper">
 							<div class="flogo">
 								<a href="#0">
-									<img src="images/logo.png" alt="" title="" />
+									<img src="images/Logo_White_64.png" alt="" title="" />
 								</a>
 							</div>
 							<div class="ftext">
-								<p>Integer justo nisi, fermentum vitae erat nec, consectetur convallis risus. Maecenas suscipit blandit leo, ut accumsan justo aliquam vel. Ut dictum maximus enim, a mollis est lacinia sed.</p>
+								<p>Exceptional leadership, critical thinking, and creative design talents leveraged to create engaging user interface/experience (UI/UX) and product design initiatives.</p>
 							</div>
-							<div class="allrights">&copy; 2016 Lara, All Rights Reserved</div>
+							<div class="allrights">&copy; 2020 Holland Design, All Rights Reserved</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- END Footer -->
-		
+
 		<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
 		<script type="text/javascript" src="js/SmoothScroll.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -200,5 +193,18 @@
 		<script type="text/javascript" src="js/jquery.fs.boxer.min.js"></script>
 		<script type="text/javascript" src="js/jquery.form.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(window).scroll(function() {
+					var scroll = $(window).scrollTop();
+
+						if (scroll >= 100) {
+								$(".navigation").addClass("navigation-scrolled");
+						} else {
+								$(".navigation").removeClass("navigation-scrolled");
+						}
+				});
+			});
+		</script>
 	</body>
 </html>
