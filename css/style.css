@@ -230,7 +230,7 @@ p:last-child{
 	border-bottom:2px solid #FF303F;
 }
 .menu ul li a:hover{
-	color:#bbbbbb;
+	color:#FF303F;
 }
 .logo-site img{
 	width:48px;
@@ -576,12 +576,19 @@ p:last-child{
 	height:500px;
 	position:relative;
 }
+.location a{
+  color: #212121;
+}
+
+.location a:hover{
+  color: #FF303F;
+}
 .social a{
 	color:#212121;
-	margin-right:10px;
+	margin-right:16px;
 }
 .social a:hover{
-	color:#bbbbbb;
+	color:#FF303F;
 }
 .who-worked{
 	margin-bottom:30px;
