@@ -1,6 +1,6 @@
 <?php
 // Who you want to recieve the emails from the form.
-$sendto = 'youremail@test.com';
+$sendto = 'tom@hollanddesign.nyc';
 
 // The subject you'll see in your inbox
 $subject = 'A message from my website';
