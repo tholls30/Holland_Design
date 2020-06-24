@@ -458,21 +458,21 @@ p:last-child{
 }
 .team-position{
 	text-align:center;
-	color:#bbbbbb;
+	color:#333333;
 }
 
 /* ==== Team Carousel ==== */
 
 .carousel-team .owl-pagination{
-	margin-top:20px;
+	margin-top:24px;
 	text-align:center;
 }
 .carousel-team .owl-pagination .owl-page{
 	display:inline-block;
-	width:20px;
-	height:20px;
+	width:24px;
+	height:24px;
 	position:relative;
-	margin:0 10px;
+	margin:0 8px;
 }
 .carousel-team .owl-pagination .owl-page span{
 	position:absolute;
@@ -490,6 +490,7 @@ p:last-child{
 
 .testimonials p{
   font-size: 20px;
+  margin-top: 24px;
 }
 
 /* ==== Inner Content ==== */
