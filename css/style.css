@@ -488,6 +488,10 @@ p:last-child{
 	background:#212121;
 }
 
+.testimonials p{
+  font-size: 20px;
+}
+
 /* ==== Inner Content ==== */
 
 .page-title{
