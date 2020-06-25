@@ -15,6 +15,7 @@
 		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 		<link rel="image_src" href="thumbnail.png">
 		<link href="css/style-theme.css" rel="stylesheet">
+		<link href="css/_carousel.scss" rel="stylesheet">
 	</head>
 	<body>
 
@@ -102,7 +103,49 @@
 					</div>
 					<div class="row divider70">
 						<div class="col-md-12">
-							<div class="carousel-team" id="carousel-team">
+							<ol class="carousel-indicators">
+					      <li id="slide"></li>
+					    </ol>
+					    <div class="carousel-inner">
+					      <div class="carousel-item active">
+									<div class="col-md-4">
+										<div class="team-img">
+											<img src="images/Anthony.jpg" alt="" title="" />
+										</div>
+										<div class="team-name">Anthony Loven</div>
+										<div class="team-position">Director, Product Design at Chopra Global</div>
+									</div>
+									<div class="col-md-8">
+										<div class="fright testimonials">
+											<p>“Tom is an excellent big-picture design thinker.  He’s great at extracting the true problems users have through data and research, and creating design options that address these.  I’ve valued his product experience when crafting improvements that ladder up to our greater vision, and testing & learning along the way.  Tom’s incredibly versatile; he’s led great design work no matter the platform or business complexity.”</p>
+										</div>
+					      	</div>
+								</div>
+								<div class="carousel-item">
+									<div class="col-md-4">
+										<div class="team-img">
+											<img src="images/Anthony.jpg" alt="" title="" />
+										</div>
+										<div class="team-name">Rob Liander</div>
+										<div class="team-position">CTO, 21 Capital</div>
+									</div>
+									<div class="col-md-8">
+										<div class="fright testimonials">
+											<p>“Tom is an excellent big-picture design thinker.  He’s great at extracting the true problems users have through data and research, and creating design options that address these.  I’ve valued his product experience when crafting improvements that ladder up to our greater vision, and testing & learning along the way.  Tom’s incredibly versatile; he’s led great design work no matter the platform or business complexity.”</p>
+										</div>
+					      	</div>
+								</div>
+					    </div>
+					    <a class="carousel-control-prev" role="button">
+					      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					      <span class="sr-only">Previous</span>
+					    </a>
+					    <a class="carousel-control-next" role="button">
+					      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					      <span class="sr-only">Next</span>
+					    </a>
+
+							<!--div class="carousel-team" id="carousel-team">
 								<div class="team-item">
 									<div class="col-md-4">
 										<div class="team-img">
@@ -127,7 +170,7 @@
 										<p>“Lorem ipsum dolor isit.”</p>
 									</div>
 								</div>
-							</div>
+							</div-->
 						</div>
 					</div>
 				</div>
@@ -211,7 +254,8 @@
 		<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
 		<script type="text/javascript" src="js/SmoothScroll.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/carousel.js"></script>
+		<script type="text/javascript" src="js/carousel.module.js"></script>
 		<script type="text/javascript" src="js/jquery.fs.boxer.min.js"></script>
 		<script type="text/javascript" src="js/jquery.form.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
