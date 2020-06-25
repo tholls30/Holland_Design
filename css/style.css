@@ -464,7 +464,7 @@ p:last-child{
 /* ==== Team Carousel ==== */
 
 .carousel-team .owl-pagination{
-	margin-top:20px;
+	margin-top:24px;
 	text-align:center;
 }
 .carousel-team .owl-pagination .owl-page{
@@ -512,7 +512,7 @@ p:last-child{
 	font-size:16px;
 }
 .believe-section{
-	padding:72px 0;
+	padding:56px 0px 24px 0px;
 }
 .bg-palette{
 	background:url(../images/geometry.png) repeat scroll;
@@ -833,7 +833,16 @@ p:last-child{
 	.divider-sm50{
 		margin-bottom:48px;
 	}
+  .float-center-content{
+    position: inherit;
+    margin-top: 134px;
+    width:100%;
+  }
+  .owl-controls{
+    margin-top: -80px;
+  }
 }
+
 @media (min-width: 479px) and (max-width:767px){
 	.about-block{
 		padding-top:0;
@@ -878,6 +887,14 @@ p:last-child{
 	.slider-item h3{
 		font-size:18px;
 	}
+  .float-center-content{
+    position: inherit;
+    margin-top: 214px;
+    width:100%;
+  }
+  .owl-controls{
+    margin-top: -130px;
+  }
 }
 @media (min-width: 299px) and (max-width:478px){
 	.about-block{
@@ -982,7 +999,16 @@ p:last-child{
 	.info-row.mb{
 		text-align:center;
 	}
+  .float-center-content{
+    position: inherit;
+    margin-top: 264px;
+    width:100%;
+  }
+  .owl-controls{
+    margin-top: -200px;
+  }
 }
+
 
 .th-about-photo img{
   height: 100%;
