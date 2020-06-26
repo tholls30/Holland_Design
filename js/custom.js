@@ -26,7 +26,8 @@ $(document).ready(function() {
 	/* ==== Team Carousel ==== */
 	$('#carousel-team').owlCarousel({
     	singleItem : true,
-    	transitionStyle : 'fadeUp',
+    	animateOut : 'slideOutLeft',
+			animateIn : 'slideInRight',
     	mouseDrag:false,
     	touchDrag:false,
     	autoPlay : 4000,
