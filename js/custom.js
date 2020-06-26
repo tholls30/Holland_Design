@@ -8,19 +8,20 @@ $(document).ready(function() {
 
 	/* ==== Full Height ==== */
 	$(function(){
-		$('.full-height').css({'height':($(window).height())+'px'});
+		$('.half-height').css({'height':($(window).height()/2)+'px'});
 		$(window).resize(function(){
-		$('.full-height').css({'height':($(window).height())+'px'});
+		$('.half-height').css({'height':($(window).height()/2)+'px'});
 		});
 	});
 
 	/* ==== Home Slider ==== */
 	$('#home-slider').owlCarousel({
     	singleItem : true,
-    	transitionStyle : 'fade',
+			animateOut : 'fadeInRight',
+			animateIn : 'fadeInRight',
     	mouseDrag:false,
     	touchDrag:false,
-    	autoPlay : 4000
+    	autoPlay : 5000
 	});
 
 	/* ==== Team Carousel ==== */

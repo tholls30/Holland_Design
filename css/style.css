@@ -242,10 +242,18 @@ p:last-child{
 .intro{
 	position:relative;
 	background:#353C40;
+  padding: 80px 0;
 }
-
+.intro-message{
+  padding: 64px 0;
+}
 /* ==== Home Slider ==== */
 
+.home-slider{
+  position: absolute;
+  margin-top: 32px;
+  height: 100%;
+}
 .slider-item{
 	position:relative;
 }
@@ -263,7 +271,9 @@ p:last-child{
 }
 .slider-image{
 	position:relative;
-	background-size:cover;
+	background-size:100%;
+  background-repeat: no-repeat;
+  margin-left: 50%;
 }
 .slider-image:before{
 	position:absolute;
