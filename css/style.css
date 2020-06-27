@@ -471,6 +471,44 @@ p:last-child{
 	color:#333333;
 }
 
+/* ==== Home Carousel ==== */
+
+.carousel-home .owl-pagination{
+	margin-top:24px;
+	text-align:center;
+}
+.carousel-home .owl-pagination .owl-page{
+	display:inline-block;
+	width:50%;
+	height:50%;
+	position:relative;
+	margin:0 10px;
+}
+.carousel-home .owl-pagination .owl-page span{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:block;
+}
+.carousel-home .owl-pagination .owl-page.active span{
+	background:#212121;
+}
+.home-item{
+  float: right;
+  padding: 0px;
+}
+.home-img{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	margin:0 auto 20px auto;
+}
+.home-img img{
+	width:100%;
+	height:auto;
+}
 /* ==== Team Carousel ==== */
 
 .carousel-team .owl-pagination{

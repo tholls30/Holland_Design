@@ -6,7 +6,7 @@ $(document).ready(function() {
 	$('.spinner').fadeOut('slow');
 	$('.preloader').delay(350).fadeOut();
 
-	/* ==== Full Height ==== */
+	/* ==== Half Height ==== */
 	$(function(){
 		$('.half-height').css({'height':($(window).height()/2)+'px'});
 		$(window).resize(function(){
@@ -14,8 +14,8 @@ $(document).ready(function() {
 		});
 	});
 
-	/* ==== Home Slider ==== */
-	$('#home-slider').owlCarousel({
+	/* ==== Home Carousel ==== */
+	$('#carousel-home').owlCarousel({
     	singleItem : true,
 			animateOut : 'fadeInRight',
 			animateIn : 'fadeInRight',
