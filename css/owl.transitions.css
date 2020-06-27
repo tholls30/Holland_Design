@@ -1,4 +1,4 @@
-/* 
+/*
  *  Owl Carousel CSS3 Transitions
  *  v1.3.2
  */
@@ -57,6 +57,17 @@
   -webkit-animation: scaleUpTo .5s ease both;
   -moz-animation: scaleUpTo .5s ease both;
   animation: scaleUpTo .5s ease both;
+}
+/*faded*/
+.owl-faded-out {
+	-webkit-animation: fadeOutLeft 1s both ease;
+	-moz-animation: fadeOutLeft 1s both ease;
+	animation: fadeOutLeft 1s both ease;
+}
+.owl-faded-in {
+	-webkit-animation: fadeInRight 1s both ease;
+	-moz-animation: fadeInRight 1s both ease;
+	animation: fadeInRight 1s both ease;
 }
 /* Keyframes */
 /*empty*/

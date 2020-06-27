@@ -17,18 +17,17 @@ $(document).ready(function() {
 	/* ==== Home Carousel ==== */
 	$('#carousel-home').owlCarousel({
     	singleItem : true,
-			animateOut : 'fadeInRight',
-			animateIn : 'fadeInRight',
+			transitionStyle : 'faded',
     	mouseDrag:false,
     	touchDrag:false,
-    	autoPlay : 5000
+    	autoPlay : 4000
 	});
 
 	/* ==== Team Carousel ==== */
 	$('#carousel-team').owlCarousel({
     	singleItem : true,
-    	animateOut : 'slideOutLeft',
-			animateIn : 'slideInRight',
+    	animateOut : 'fadeOutLeft',
+			animateIn : 'fadeInRight',
     	mouseDrag:false,
     	touchDrag:false,
     	autoPlay : 4000,
