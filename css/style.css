@@ -873,6 +873,9 @@ p:last-child{
   .carousel-home{
     top: 200px;
   }
+  .carousel-home .owl-pagination{
+  	display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width:991px){
@@ -909,6 +912,9 @@ p:last-child{
   }
   .home-img:before{
     background: rgba(18, 23, 27, 0.7)
+  }
+  .carousel-home .owl-pagination{
+  	display: none;
   }
 }
 
@@ -961,8 +967,8 @@ p:last-child{
     margin-top: 214px;
     width:100%;
   }
-  .owl-controls{
-    margin-top: -130px;
+  .carousel-home .owl-controls{
+  	display: none;
   }
   .intro{
     padding: 104px 0 72px 0;
@@ -1092,26 +1098,31 @@ p:last-child{
     margin-top: 264px;
     width:100%;
   }
-  .owl-controls{
-    margin-top: -200px;
+  .carousel-home .owl-carousel .owl-controls{
+    display: none;
   }
   .intro{
-    padding: 104px 0 72px 0;
+    padding: 120px 0 72px 0;
   }
   .intro-message{
-    padding: 72px 0;
+    padding: 64px 0 0 0;
   }
   .carousel-home{
     overflow: hidden;
+    top: 128px;
   }
   .home-item{
-    width: 200%;
+    width: 100%;
   }
   .home-img:before{
     background: rgba(18, 23, 27, 0.7)
   }
   .latest-project-wrapper{
     padding: 64px 0;
+  }
+  .testimonials p{
+    font-size: 16px;
+    text-align: center;
   }
 }
 

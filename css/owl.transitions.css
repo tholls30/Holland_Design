@@ -69,17 +69,7 @@
 	-moz-animation: fadeInRight 1s both ease;
 	animation: fadeInRight 1s both ease;
 }
-/*faded2*/
-.owl-faded2-out {
-	-webkit-animation: fadeOutLeft 1s both ease;
-	-moz-animation: fadeOutLeft 1s both ease;
-	animation: fadeOutLeft 1s both ease;
-}
-.owl-faded2-in {
-	-webkit-animation: fadeInRight 1s both ease;
-	-moz-animation: fadeInRight 1s both ease;
-	animation: fadeInRight 1s both ease;
-}
+
 /* Keyframes */
 /*empty*/
 @-webkit-keyframes empty {
