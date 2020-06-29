@@ -31,8 +31,7 @@ $(document).ready(function() {
     	mouseDrag:false,
     	touchDrag:false,
     	autoPlay : 4000,
-			pagination:true,
-			rewind:false
+			pagination:true
 	});
 
 	/* ==== Boxer ==== */
