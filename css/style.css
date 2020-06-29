@@ -294,6 +294,16 @@ p:last-child{
 .about-block{
 	padding-top:80px;
 }
+.about-text{
+  font-size: 16px;
+}
+.th-about-photo{
+  margin-top: 6%;
+}
+.th-about-photo img{
+  height: 100%;
+  width: 100%;
+}
 .inner-title{
 	position:relative;
 	font-size:24px;
@@ -576,6 +586,7 @@ p:last-child{
 }
 .bg-palette{
 	background:url(../images/geometry.png) repeat scroll;
+  padding: 104px 0 48px 0;
 }
 .bg-red{
 	background:#FF303F;
@@ -662,7 +673,7 @@ p:last-child{
 	text-align:center;
 }
 .work-process{
-	padding:104px 0;
+	padding-top:104px;
 	background:url(../images/geometry.png) repeat scroll;
 }
 
@@ -1124,10 +1135,4 @@ p:last-child{
     font-size: 16px;
     text-align: center;
   }
-}
-
-
-.th-about-photo img{
-  height: 100%;
-  width: 100%;
 }
