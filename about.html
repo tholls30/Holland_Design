@@ -220,10 +220,28 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 divider-md70">
-						<h2 class="inner-title">Connect with me</h2>
-						<div class="slogan">Let's grab a coffee<br> & see what we<br> can <span class="color-red">create</span>!</div>
-						<div class="btn-wrapper">
-							<a href="contact.html" class="btn-site">Contact me</a>
+						<h2 class="inner-title">Keep in touch</h2>
+						<div class="form-send">
+							<form action="js/sendmail.php" class="form-inline" method="post" autocomplete="off" id="contactForm">
+								<div class="info-row">
+									<input type="text" name="name" placeholder="Name" id="name" />
+								</div>
+								<div class="info-row">
+									<input type="text" name="email" placeholder="Email" id="email" />
+								</div>
+								<div class="info-row">
+									<textarea name="message" id="message" placeholder="Message"></textarea>
+								</div>
+								<div class="info-row honeypot">
+									<input type="text" name="last" id="last" />
+								</div>
+								<div class="info-row mb">
+									<input type="submit" class="btn-site white-colo" value="Send" />
+								</div>
+								<div class="message">
+									<div class="alert"></div>
+								</div>
+							</form>
 						</div>
 					</div>
 					<div class="col-md-6">
