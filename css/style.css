@@ -557,7 +557,6 @@ p:last-child{
 .carousel-team .owl-pagination .owl-page.active span{
 	background:#212121;
 }
-
 .testimonials p{
   font-size: 20px;
 }
@@ -975,8 +974,11 @@ p:last-child{
 	}
   .float-center-content{
     position: inherit;
-    margin-top: 214px;
-    width:100%;
+    display: inline;
+  }
+  .testimonials{
+    padding-top: 32px;
+    float: none;
   }
   .carousel-home .owl-controls{
   	display: none;
@@ -1004,7 +1006,7 @@ p:last-child{
 @media (min-width: 299px) and (max-width:478px){
 	.about-block{
 		padding-top:0;
-		margin-bottom:72px;
+		margin-bottom:0;
 	}
 	.team .inner-title{
 		text-align:center;
@@ -1106,8 +1108,11 @@ p:last-child{
 	}
   .float-center-content{
     position: inherit;
-    margin-top: 264px;
-    width:100%;
+    display: inline;
+  }
+  .testimonials{
+    padding-top: 32px;
+    float: none;
   }
   .carousel-home .owl-carousel .owl-controls{
     display: none;
@@ -1134,5 +1139,9 @@ p:last-child{
   .testimonials p{
     font-size: 16px;
     text-align: center;
+    padding-top: 0px;
+  }
+  .services-text{
+    padding:0;
   }
 }
