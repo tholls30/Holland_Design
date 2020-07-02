@@ -700,7 +700,7 @@ p:last-child{
 	text-align:center;
 }
 .work-process{
-	padding-top:104px;
+	padding: 48px 0;
 	background:url(../images/geometry.png) repeat scroll;
 }
 .work-process-nobg{
@@ -708,7 +708,9 @@ p:last-child{
   background-color: #eee;
 }
 .project-img{
-	position:relative
+	position:relative;
+  margin: 4px;
+  border: 1px solid rgba(0, 0, 0, .25);
 }
 .project-img img{
 	width:100%;
