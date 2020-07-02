@@ -397,6 +397,7 @@ p:last-child{
 }
 .services-text{
 	padding-right:40px;
+  font-size: 16px;
 }
 .service-list ul li {
     position:relative;
@@ -433,6 +434,33 @@ p:last-child{
 }
 .latest-project-wrapper{
 	padding:100px 0;
+}
+
+/* ==== Project Details ==== */
+.project-item{
+  padding-top: 72px;
+}
+.project-text{
+	font-size: 16px;
+  margin-bottom:32px;
+}
+.project-text h4{
+  font-weight: bold;
+}
+.project-name h4{
+	font-weight:bold;
+  margin-bottom:8px;
+	padding-bottom:8px;
+	position:relative;
+}
+.project-name h4:before{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:32px;
+	height:2px;
+	background:#FF303F;
+	content:'';
 }
 
 /* ==== Team ==== */
@@ -672,19 +700,17 @@ p:last-child{
 	text-align:center;
 }
 .work-process{
-	padding-top:104px;
+	padding: 48px 0;
 	background:url(../images/geometry.png) repeat scroll;
 }
-
 .work-process-nobg{
   background: none;
   background-color: #eee;
 }
-.project-text{
-	margin-bottom:32px;
-}
 .project-img{
-	position:relative
+	position:relative;
+  margin: 4px;
+  border: 1px solid rgba(0, 0, 0, .25);
 }
 .project-img img{
 	width:100%;
