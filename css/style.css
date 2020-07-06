@@ -768,6 +768,7 @@ p:last-child{
 	height:100%;
 	content:'';
 	background:rgba(18,23,27,0.7);
+  border-bottom: 2px solid rgba(18,19,20);
 }
 
 /* ==== Boxer ==== */
