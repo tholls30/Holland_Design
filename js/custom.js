@@ -31,6 +31,7 @@ $(document).ready(function() {
     	mouseDrag:false,
     	touchDrag:false,
     	autoPlay : 4000,
+			autoPlayHoverPause:true,
 			pagination:true
 	});
 
