@@ -10,6 +10,7 @@
 
 		  gtag('config', 'UA-174002669-1');
 		</script>
+		<script src="https://www.google.com/recaptcha/api.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -194,7 +195,7 @@
 								<div class="col-md-3 col-sm-6 divider-sm50">
 									<div class="add-row location">
 										<div class="add-title">Address</div>
-										<p>59 Timber Road <br>Black Hawk, CO 80422</p>
+										<p>7722 Saulsbury St <br>Arvada, CO 80003</p>
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-6 divider-sm50">
@@ -255,7 +256,8 @@
 									<input type="text" name="last" id="last" />
 								</div>
 								<div class="info-row mb">
-									<input type="submit" class="btn-site white-colo" value="Send" />
+									<button class="g-recaptcha btn-site white-colo" data-sitekey="6LeRWMgeAAAAAM-hXIbwc6Q23dMFo0Gfn9R4aF80" data-callback='onSubmit' data-action='submit'>Submit
+									</button>
 								</div>
 								<div class="message">
 									<div class="alert"></div>
@@ -273,7 +275,7 @@
 							<div class="ftext">
 								<p>Exceptional leadership, critical thinking, and creative design talents leveraged to create engaging user interface/experience (UI/UX) and product design strategies.</p>
 							</div>
-							<div class="allrights">&copy; 2020 Holland Design, All Rights Reserved</div>
+							<div class="allrights">&copy; 2022 Holland Design, All Rights Reserved</div>
 						</div>
 					</div>
 				</div>
@@ -300,8 +302,11 @@
 						}
 				});
 			});
-
-
+		</script>
+		<script>
+			function onSubmit(token) {
+				document.getElementById("contactForm").submit();
+			}
 		</script>
 	</body>
 </html>
